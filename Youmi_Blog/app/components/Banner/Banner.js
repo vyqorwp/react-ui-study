@@ -1,11 +1,11 @@
 import React from 'react';
-import HI from 'assets/img/HI.svg';
 export default class Banner extends React.Component {
   render() {
+    const { title, subTitle } = this.props;
     return (
       <div className="banner-area">
-        <div className="main-title">HI</div>
-        <span> Welcome to Youmi's Blog</span>
+        <div className="main-title">{title}</div>
+        <span>{subTitle}</span>
       </div>
     );
   }

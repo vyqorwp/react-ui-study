@@ -214,7 +214,7 @@ $error-color: red;
 
 ```js
 import React from 'react';
-import './Button.scss';
+import sass;
 
 class Button extends React.Component {
   render() {

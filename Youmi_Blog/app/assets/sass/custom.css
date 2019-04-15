@@ -1,16 +1,19 @@
+
+
 .main-content {
   background: #ffffff url(../img/backGround.svg) repeat-y right top;
   height: 1000px;
 }
-.main-title{
-  font-size: 400px;
+.main-title {
+  font-size: 200px;
   font-weight: bold;
-  padding-top: 90px;
-
+  padding-top: 180px;
 }
-.main-title span{
-  font-size: 100px;
-}
-.banner-area{
+.banner-area {
   padding-left: 34px;
+}
+.banner-area span{
+  font-size:55px;
+  padding-left: 10px;
+  color:#535353;
 }
