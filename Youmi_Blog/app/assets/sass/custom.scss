@@ -1,0 +1,27 @@
+$color-grey:#b51718;
+$color-blue: #5279fe;
+$color-orange: #fe9d39;
+$orangeSoda: #FE5E41;
+$key-lime: #D8F1A0;
+$mellow-apricot: #F3C178;
+$green: #00A878;
+$black: #0B0500;
+$color-grey: #535353;
+
+.main-content {
+  background: #ffffff url(../img/backGround.svg) repeat left top;
+  height: 1000px;
+}
+.main-title {
+  font-size: 100px;
+  font-weight: bold;
+  padding-top: 230px;
+}
+.banner-area {
+  padding-left: 34px;
+}
+.banner-area span{
+  font-size:25px;
+  padding-left: 10px;
+  color:$color-grey;
+}

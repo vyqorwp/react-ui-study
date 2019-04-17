@@ -1,5 +1,8 @@
 import React from 'react';
-export default class Banner extends React.Component {
+import * as PropTypes from 'prop-types';
+
+/* eslint-disable react/prefer-stateless-function */
+class Banner extends React.Component {
   render() {
     const { title, subTitle } = this.props;
     return (
@@ -10,3 +13,9 @@ export default class Banner extends React.Component {
     );
   }
 }
+Banner.propTypes = {
+  title: PropTypes.string,
+  subTitle: PropTypes.string,
+};
+
+export default Banner;
