@@ -1,4 +1,7 @@
 export const SiteUrls = {
   Root: '/',
-  Main: '/Main',
+  Main: '/main',
+  D3: '/d3',
+  Table: '/table',
+  Card: '/card',
 };
